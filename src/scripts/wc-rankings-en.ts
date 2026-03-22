@@ -31,7 +31,7 @@ export const wcRankingsEN: DemoScript = {
       cursor: {
         points: [
           { x: 30, y: 22 },
-          { x: 70, y: 22 },
+          { x: 52, y: 22 },
         ],
         clickAt: [0],
       },
