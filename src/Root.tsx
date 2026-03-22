@@ -2,10 +2,10 @@ import React from "react";
 import { Composition } from "remotion";
 import { ScriptRunner } from "./core/ScriptRunner";
 import { totalDurationInFrames } from "./core/timing";
-import { wcRankingsDemo } from "./scripts/wc-rankings";
+import { wcRankingsEN } from "./scripts/wc-rankings-en";
+import { wcRankingsPT } from "./scripts/wc-rankings-pt";
 
-// Add more script imports here
-const allScripts = [wcRankingsDemo];
+const allScripts = [wcRankingsEN, wcRankingsPT];
 
 export const RemotionRoot: React.FC = () => {
   return (

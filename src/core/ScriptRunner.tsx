@@ -6,6 +6,7 @@ import { BrowserFrame } from "../components/BrowserFrame";
 import { CaptionOverlay } from "../components/CaptionOverlay";
 import { CursorAnimation } from "../components/CursorAnimation";
 import { HighlightBox } from "../components/HighlightBox";
+import { ScreenshotImage } from "../components/ScreenshotImage";
 import { TitleCard } from "../components/TitleCard";
 import { TransitionWipe } from "../components/TransitionWipe";
 
@@ -71,10 +72,7 @@ function renderScene(scene: Scene, script: DemoScript) {
   return (
     <AbsoluteFill>
       <BrowserFrame url={script.url}>
-        <Img
-          src={staticFile(scene.src)}
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
-        />
+        <ScreenshotImage src={scene.src} />
       </BrowserFrame>
       {scene.highlight && <HighlightBox region={scene.highlight} />}
       {scene.cursor && (
