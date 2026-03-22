@@ -19,15 +19,16 @@ export const wcRankingsDemo: DemoScript = {
       type: "screenshot",
       src: "screenshots/wc-rankings/composite-view.png",
       duration: 4,
-      caption: "Composite rankings blend squad ratings with market predictions",
+      caption:
+        "Composite rankings blend squad ratings with Kalshi market predictions",
       transition: "fade",
     },
     {
       type: "screenshot",
       src: "screenshots/wc-rankings/spain-expanded.png",
       duration: 5,
-      caption: "Expand any team for full Starting XI and bench breakdown",
-      highlight: { x: 5, y: 35, width: 90, height: 50 },
+      caption: "Expand any team for full Starting XI, bench, and coach data",
+      highlight: { x: 5, y: 30, width: 90, height: 55 },
       transition: "slide-left",
     },
     {
@@ -46,24 +47,41 @@ export const wcRankingsDemo: DemoScript = {
     },
     {
       type: "screenshot",
+      src: "screenshots/wc-rankings/image.png",
+      duration: 4,
+      caption:
+        "Pure Sofascore ratings — see who has the strongest Starting XI",
+      transition: "slide-left",
+    },
+    {
+      type: "screenshot",
       src: "screenshots/wc-rankings/bench-depth.png",
       duration: 4,
       caption: "France's bench depth is the strongest in the tournament",
+      transition: "fade",
+    },
+    {
+      type: "screenshot",
+      src: "screenshots/wc-rankings/france-expanded.png",
+      duration: 5,
+      caption:
+        "Olise, Cherki, Rabiot, Konaté — France's bench would start for most teams",
+      highlight: { x: 5, y: 45, width: 90, height: 45 },
       transition: "slide-up",
     },
     {
       type: "screenshot",
-      src: "screenshots/wc-rankings/coach-details.png",
+      src: "screenshots/wc-rankings/coach-details-1.png",
       duration: 4,
       caption:
-        "Coach performance data: win rates, tiers, and tournament pedigree",
+        "Coach performance: win rates, tournament tiers, and pedigree",
       transition: "fade",
     },
     {
       type: "title",
       duration: 3,
-      heading: "Built with React + Vite",
-      subheading: "github.com/kaiohenricunha/wc-squad-rankings",
+      heading: "github.com/kaiohenricunha/wc-squad-rankings",
+      subheading: "Built with React + Vite · Deployed on Vercel",
     },
   ],
 };
