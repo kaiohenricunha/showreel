@@ -30,8 +30,8 @@ export const wcRankingsEN: DemoScript = {
       caption: "Adjust the balance between squad talent and market sentiment",
       cursor: {
         points: [
-          { x: 30, y: 22 },
-          { x: 52, y: 22 },
+          { x: 27, y: 29 },
+          { x: 49, y: 29 },
         ],
         clickAt: [0],
       },

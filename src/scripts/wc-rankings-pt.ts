@@ -31,8 +31,8 @@ export const wcRankingsPT: DemoScript = {
         "Ajuste o equilíbrio entre talento do elenco e sentimento do mercado",
       cursor: {
         points: [
-          { x: 30, y: 22 },
-          { x: 52, y: 22 },
+          { x: 27, y: 29 },
+          { x: 49, y: 29 },
         ],
         clickAt: [0],
       },
