@@ -4,8 +4,10 @@ import { ScriptRunner } from "./core/ScriptRunner";
 import { totalDurationInFrames } from "./core/timing";
 import { wcRankingsEN } from "./scripts/wc-rankings-en";
 import { wcRankingsPT } from "./scripts/wc-rankings-pt";
+import { wcPoolEN } from "./scripts/wc-pool-en";
+import { wcPoolPT } from "./scripts/wc-pool-pt";
 
-const allScripts = [wcRankingsEN, wcRankingsPT];
+const allScripts = [wcRankingsEN, wcRankingsPT, wcPoolEN, wcPoolPT];
 
 export const RemotionRoot: React.FC = () => {
   return (

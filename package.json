@@ -8,7 +8,10 @@
     "render": "remotion render src/index.ts",
     "render:wc-en": "remotion render src/index.ts wc-rankings-en out/wc-rankings-en.mp4 --codec h264 --crf 18",
     "render:wc-pt": "remotion render src/index.ts wc-rankings-pt out/wc-rankings-pt.mp4 --codec h264 --crf 18",
-    "capture": "node scripts/capture.mjs"
+    "render:pool-en": "remotion render src/index.ts wc-pool-en out/wc-pool-en.mp4 --codec h264 --crf 18",
+    "render:pool-pt": "remotion render src/index.ts wc-pool-pt out/wc-pool-pt.mp4 --codec h264 --crf 18",
+    "capture": "node scripts/capture.mjs",
+    "capture:pool": "node scripts/capture.mjs pool"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.0",
