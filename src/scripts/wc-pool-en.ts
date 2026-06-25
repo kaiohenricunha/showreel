@@ -19,21 +19,21 @@ export const wcPoolEN: DemoScript = {
       type: "title",
       duration: 3,
       heading: "🏆 SquadRanks Prediction Pools",
-      subheading: "Predict every match. Climb the table. No money held.",
+      subheading: "One pick per match. A live table. No money held.",
     },
     {
       type: "screenshot",
       src: "screenshots/wc-pool/en/pool-predictions.png",
       duration: 5,
       caption:
-        "Call the score on every match. Exact scores pay 10, the result pays 5.",
+        "One pick per match. Exact scores pay 10, the result pays 5.",
       transition: "fade",
     },
     {
       type: "screenshot",
       src: "screenshots/wc-pool/en/pool-members.png",
       duration: 4,
-      caption: "Invite the group with a code, a link, or a QR. 17 in, 13 seats left.",
+      caption: "Join by code, link, or QR. 17 players in, 13 seats open.",
       transition: "slide-left",
     },
     {
@@ -41,20 +41,20 @@ export const wcPoolEN: DemoScript = {
       src: "screenshots/wc-pool/en/pool-leaderboard.png",
       duration: 6,
       caption:
-        "One live table ranks everyone. Bruno leads on 80, you sit 8th on 43.",
+        "A live table ranks the pool. Bruno leads on 80, and it runs to the final whistle.",
       transition: "slide-left",
     },
     {
       type: "screenshot",
       src: "screenshots/wc-pool/en/pool-member-detail.png",
       duration: 5,
-      caption: "Open any rival to see every locked pick and where the points went.",
+      caption: "Every pick locks and shows. Check the points behind any player.",
       transition: "slide-up",
     },
     {
       type: "title",
       duration: 3,
-      heading: "Start your pool free",
+      heading: "Start a pool free.",
       subheading: "squadranks.com · the organizer handles the pot, never us",
     },
   ],

@@ -19,21 +19,21 @@ export const wcPoolPT: DemoScript = {
       type: "title",
       duration: 3,
       heading: "🏆 Bolões SquadRanks",
-      subheading: "Palpite em cada jogo. Suba na tabela. Sem segurar dinheiro.",
+      subheading: "Um palpite por jogo. Tabela ao vivo. Sem ninguém segurando dinheiro.",
     },
     {
       type: "screenshot",
       src: "screenshots/wc-pool/pt/pool-predictions.png",
       duration: 5,
       caption:
-        "Crave o placar de cada jogo. Placar exato vale 10, acertar o resultado vale 5.",
+        "Um palpite por jogo. Placar exato vale 10, só o resultado vale 5.",
       transition: "fade",
     },
     {
       type: "screenshot",
       src: "screenshots/wc-pool/pt/pool-members.png",
       duration: 4,
-      caption: "Convide a galera por código, link ou QR. 17 dentro, 13 vagas livres.",
+      caption: "Entra por código, link ou QR. 17 jogadores dentro, 13 vagas abertas.",
       transition: "slide-left",
     },
     {
@@ -41,21 +41,21 @@ export const wcPoolPT: DemoScript = {
       src: "screenshots/wc-pool/pt/pool-leaderboard.png",
       duration: 6,
       caption:
-        "Uma tabela ao vivo classifica todos. Bruno lidera com 80, você é o 8º com 43.",
+        "Classificação ao vivo. Bruno lidera com 80 e a disputa vai até o último apito.",
       transition: "slide-left",
     },
     {
       type: "screenshot",
       src: "screenshots/wc-pool/pt/pool-member-detail.png",
       duration: 5,
-      caption: "Abra qualquer rival e veja cada palpite travado e onde os pontos foram.",
+      caption: "Todo palpite fica travado e à vista. Dá pra conferir os pontos de cada jogador.",
       transition: "slide-up",
     },
     {
       type: "title",
       duration: 3,
-      heading: "Crie seu bolão grátis",
-      subheading: "squadranks.com · o dinheiro fica com o organizador, nunca com a gente",
+      heading: "Bolão grátis em segundos.",
+      subheading: "squadranks.com · o prêmio fica com o organizador, nunca com a gente",
     },
   ],
 };
